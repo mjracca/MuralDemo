@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="MuralApp/Mural.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MuralApp/View/WidgetView.cs">
+    <Files>
+      <File FileName="../Mural/Mural.Core/MuralViewModel.cs" Line="19" Column="9" />
+      <File FileName="../Mural/Mural.Core/WidgetViewModel.cs" Line="19" Column="31" />
+      <File FileName="MuralApp/View/WidgetView.cs" Line="39" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

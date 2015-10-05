@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mural.Core", "..\Mural\Mural.Core\Mural.Core.shproj", "{D271E2DC-8FCB-414C-89FF-F8B11FAFC483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mural.iOS", "Mural.iOS\Mural.iOS.csproj", "{27802727-29A9-4609-9DF7-83B9E3B0493D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Release|iPhone.Build.0 = Release|iPhone
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{27802727-29A9-4609-9DF7-83B9E3B0493D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
