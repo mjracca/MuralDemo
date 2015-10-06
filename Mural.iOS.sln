@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mural.Core", "..\Mural\Mural.Core\Mural.Core.shproj", "{D271E2DC-8FCB-414C-89FF-F8B11FAFC483}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mural.iOS", "Mural.iOS\Mural.iOS.csproj", "{27802727-29A9-4609-9DF7-83B9E3B0493D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mural.Core", "Mural.Core\Mural.Core.shproj", "{D271E2DC-8FCB-414C-89FF-F8B11FAFC483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

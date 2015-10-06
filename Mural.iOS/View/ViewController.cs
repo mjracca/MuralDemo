@@ -2,10 +2,10 @@
 
 using UIKit;
 using CoreGraphics;
-using Mural.Core;
 using System.Drawing;
 using ReactiveUI;
 using Foundation;
+using Mural.Core;
 
 namespace Mural.iOS
 {

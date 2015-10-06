@@ -115,7 +115,7 @@
     <Compile Include="View\WidgetView.cs" />
     <Compile Include="Mixins\PointExtentions.cs" />
   </ItemGroup>
-  <Import Project="..\..\Mural\Mural.Core\Mural.Core.projitems" Label="Shared" Condition="Exists('..\..\Mural\Mural.Core\Mural.Core.projitems')" />
+  <Import Project="..\Mural.Core\Mural.Core.projitems" Label="Shared" Condition="Exists('..\Mural.Core\Mural.Core.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <Folder Include="View\" />
