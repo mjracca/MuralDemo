@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="App6.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App6"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer x:Name="scrollViewer" HorizontalScrollBarVisibility="Auto" 
+           VerticalScrollBarVisibility="Auto" Background="#FF585858"
+           IsHorizontalRailEnabled="false" IsVerticalRailEnabled="false" 
+           AllowDrop="True" ZoomMode="Enabled" MinZoomFactor="0.1" MaxZoomFactor="2">
+
+            <Canvas x:Name="mural" Background="#FFEDEDED" Width="6000" Height="3000">
+            </Canvas>
+            
+        </ScrollViewer>
+    </Grid>
+</Page>
