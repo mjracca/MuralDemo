@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="App6.App"
+    x:Class="Mural.Win.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:App6"
+    xmlns:local="using:Mural.Win"
     RequestedTheme="Light">
 
 </Application>

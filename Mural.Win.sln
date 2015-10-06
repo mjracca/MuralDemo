@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mural.Win", "Mural.Win\Mural.Win.csproj", "{6E51279B-3F37-4A88-B9E3-9EEADE6973EC}"
 EndProject
@@ -10,6 +10,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Mural.Core\Mural.Core.projitems*{d271e2dc-8fcb-414c-89ff-f8b11fafc483}*SharedItemsImports = 13
+		Mural.Core\Mural.Core.projitems*{6e51279b-3f37-4a88-b9e3-9eeade6973ec}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM

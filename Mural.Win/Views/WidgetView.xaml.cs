@@ -2,6 +2,7 @@
 using ReactiveUI;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -15,9 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
-
-namespace App6
+namespace Mural.Win
 {
     public sealed partial class WidgetView : UserControl
     {
@@ -28,17 +27,18 @@ namespace App6
             this.InitializeComponent();
 
             this.widgetViewModel = widgetViewModel;
-
-            this.widgetViewModel.WhenAnyValue(w => w.Position).Subscribe(p => 
-            {
-                this.RenderTransform = new TranslateTransform()
-                {
-                    X = p.X,
-                    Y = p.Y
-                };
-            });
+            this.widgetViewModel.WhenAnyValue(w => w.Position).Subscribe(this.OnPositionChanged);
 
             this.DataContext = this.widgetViewModel;
+        }
+
+        private void OnPositionChanged(PointF position)
+        {
+            this.RenderTransform = new TranslateTransform()
+            {
+                X = position.X,
+                Y = position.Y
+            };
         }
 
         protected override void OnManipulationDelta(ManipulationDeltaRoutedEventArgs e)
